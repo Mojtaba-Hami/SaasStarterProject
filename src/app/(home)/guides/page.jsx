@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function GuidesPage() {
   return (
-    <div className=' py-8 text-white flex flex-col gap-4 min-h-[500px] px-5'>
+    <div className=' py-8 text-white flex flex-col gap-4 min-h-[500px] px-5 mt-15'>
       <div className="flex gap-2 items-center font-medium">
             <span className="fontlight ">Docs</span>
             <span className="fontlight ">

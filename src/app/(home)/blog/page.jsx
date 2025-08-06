@@ -10,7 +10,7 @@ export default function BlogPage() {
     count: 4,
   });
   return (
-    <div className="text-white  flex flex-col gap-2 ">
+    <div className="text-white  flex flex-col gap-2 mt-15 ">
       <BlogPageHeader />
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
