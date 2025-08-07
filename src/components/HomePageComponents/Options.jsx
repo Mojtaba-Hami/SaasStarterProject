@@ -289,7 +289,7 @@ export default function OptionsSection() {
                 <Image src="/img/image.png" className="rounded-full" width={25} height={25} />
             </div>
 
-             <div className="flex items-center gap-2 absolute top-[45%] right-[25%] lg:right-[28%] ">
+             <div className="flex items-center gap-2 absolute top-[45%] right-[25%] lg:right-[30%] ">
                 <Image src="/img/2.png" className="rounded-full" width={25} height={25} />
                 <span className="bg-neutral-900 px-2 py-05 border border-neutral-700 rounded-lg">M.Irung</span>
             </div>

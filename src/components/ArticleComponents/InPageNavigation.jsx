@@ -63,8 +63,8 @@ export default function InPageNavigation({data}) {
 
   return (
     <div className='  mt-10 grid grid-cols-1 md:grid-cols-4 gap-10 p-4'>
-      
       <div className='md:col-span-3 flex flex-col gap-15 text-justify border-x border-neutral-800 rounded-t-2xl'>
+        
         <Image className=' w-full lg:w-[100%]   h-[450px] rounded-2xl' src={data.coverImage} width={500} height={400} alt={data.title} />
 
         {sampleData.map((item) => (
@@ -78,13 +78,13 @@ export default function InPageNavigation({data}) {
       </div>
 
       <div className='md:col-span-1 '>
-        <div className='sticky top-10 flex flex-col gap-3'>
-          <h3 className="font-bold text-lg mb-2">  </h3>
+        <div className='sticky top-20 flex flex-col gap-3'>
+          {/* <h3 className="font-bold text-lg mb-2">  </h3> */}
           {sampleData.map((item) => (
              <a 
               key={item.id} 
               href={`#${item.id}`}
-              className={`transition-colors duration-300 ${
+              className={`transition-colors duration-300 whitespace-nowrap ${
                 activeId === item.id 
                 ? 'text-white font-bold' 
                 : 'text-neutral-400 hover:text-neutral-200' 
