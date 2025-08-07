@@ -1,10 +1,11 @@
-import  { createArticleAPI } from "@/app/actions/article";
-import React from "react";
-import { faker } from "@faker-js/faker";
-import Image from "next/image";
 import Link from "next/link";
-import BlogPageHeader from "@/components/BlogPageHeader";
+import Image from "next/image";
+import { createArticleAPI } from "@/app/actions/article";
+import { faker } from "@faker-js/faker";
 import { addProduct } from "@/app/actions/products";
+
+// Components import
+import BlogPageHeader from "@/components/modules/blog/BlogPageHeader";
 
 export default async function EducationPage() {
   const articles = faker.helpers.multiple(createArticleAPI, {
@@ -15,9 +16,9 @@ export default async function EducationPage() {
   );
 
   return (
-    <div className="flex flex-col gap-2 mt-15">
+    <div className='flex flex-col gap-2 mt-15'>
       <BlogPageHeader />
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 ">
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 '>
         {FilteredArticles.map((article) => {
           return (
             <div key={article.id} className={`flex flex-col gap-3 `}>
@@ -29,23 +30,22 @@ export default async function EducationPage() {
                 width={200}
                 height={200}
               />
-              <div className="flex flex-col gap-3">
+              <div className='flex flex-col gap-3'>
                 <Link
                   href={`/blog/${article.id}`}
-                  className="text-xl font-semibold"
-                >
+                  className='text-xl font-semibold'>
                   {article.title}
                 </Link>
-                <p className="fontlight line-clamp-2">{article.description}</p>
-                <div className="flex gap-2 items-center">
+                <p className='fontlight line-clamp-2'>{article.description}</p>
+                <div className='flex gap-2 items-center'>
                   <Image
-                    className="rounded-full"
+                    className='rounded-full'
                     src={article.authorImage}
                     alt={article.authorName}
                     width={35}
                     height={35}
                   />
-                  <p className="fontlight font-semibold text-sm">
+                  <p className='fontlight font-semibold text-sm'>
                     {article.publishedDate.toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "long",

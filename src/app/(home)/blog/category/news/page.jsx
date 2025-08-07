@@ -3,7 +3,7 @@ import React from "react";
 import { faker } from "@faker-js/faker";
 import Image from "next/image";
 import Link from "next/link";
-import BlogPageHeader from "@/components/BlogPageHeader";
+import BlogPageHeader from "@/components/modules/blog/BlogPageHeader";
 
 export default function NewsPage() {
   const articles = faker.helpers.multiple(createArticleAPI, {
