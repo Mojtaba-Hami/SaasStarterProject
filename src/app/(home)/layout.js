@@ -1,7 +1,7 @@
-import NavBar from "@/components/NavBar";
+import NavBar from "@/components/layout/NavBar";
 import "./globals.css";
-import Container from "@/components/Container";
-import Footer from "@/components/Footer";
+import Container from "@/components/layout/Container";
+import Footer from "@/components/layout/Footer";
 
 export const metadata = {
   title: "Sass Starter Project",
@@ -10,8 +10,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="">
+    <html lang='en'>
+      <body className=''>
         <NavBar />
         <Container>{children}</Container>
         <Footer />

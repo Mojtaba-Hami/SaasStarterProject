@@ -1,4 +1,4 @@
-import Documentationsidebar from "@/components/DocumentationPageComponents/DocumentationSideBar";
+import Documentationsidebar from "@/components/modules/documentation/DocumentationSideBar";
 import React from "react";
 
 export default function DocumentationPage() {

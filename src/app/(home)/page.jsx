@@ -1,15 +1,16 @@
-import Container from "@/components/Container";
-import FeaturesSection from "@/components/HomePageComponents/Features";
-import Header from "@/components/Header";
-import NavBar from "@/components/NavBar";
-import OptionsSection from "@/components/HomePageComponents/Options";
-import PoweredBySection from "@/components/HomePageComponents/PoweredBy";
-import Testimonials from "@/components/HomePageComponents/Testimonials";
-import UnderOptions from "@/components/HomePageComponents/UnderOptions";
+// Layout Imports
+import Header from "@/components/layout/Header";
+
+// Module Imports
+import FeaturesSection from "@/components/modules/home/Features";
+import OptionsSection from "@/components/modules/home/Options";
+import PoweredBySection from "@/components/modules/home/PoweredBy";
+import Testimonials from "@/components/modules/home/Testimonials";
+import UnderOptions from "@/components/modules/home/UnderOptions";
 
 export default function Home() {
   return (
-    <div className="text-white !mx-auto">
+    <div className='text-white !mx-auto'>
       <Header />
       <PoweredBySection />
       <OptionsSection />
