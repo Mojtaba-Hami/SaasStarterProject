@@ -2,22 +2,23 @@ import React from "react";
 
 export default function FeaturesSection() {
   return (
-    <div className="flex flex-col items-center gap-5 mt-30">
+    <div className="flex flex-col items-center gap-5 mt-20">
       <div className="flex gap-5 items-center flex-col">
         <h5 className="bg-gradient-to-r from-[#6366f1] from-60% to-[#a855f7cc] bg-clip-text text-transparent text-lg font-semibold">
           Features
         </h5>
         <h1 className="text-3xl font-bold">Discover all features</h1>
-        <h3 className="text-lg fontlight">
+        <h3 className="text-lg font-light">
           Harum quae dolore inventore repudiandae? orrupti aut temporibus
           ariatur.
         </h3>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-[95%] mx-auto">
+        {/* Card 1: Next.js */}
         <div className="relative group overflow-hidden border border-neutral-800 flex flex-col gap-6 h-fit p-6 rounded-2xl">
-          <div className="absolute inset-0 -z-10 h-50 w-full  bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>{" "}
-          <div className="p-2 rounded-2xl  border border-neutral-800 w-fit">
+          <div className="absolute inset-0 -z-10 h-52 w-full bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>
+          <div className="p-2 rounded-2xl border border-neutral-800 w-fit">
             <svg
               className="fill-white w-8"
               aria-hidden="true"
@@ -28,10 +29,7 @@ export default function FeaturesSection() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 15 15"
             >
-              <path
-                className=""
-                d="m4.5 4.5l.405-.293A.5.5 0 0 0 4 4.5zm3 9.5A6.5 6.5 0 0 1 1 7.5H0A7.5 7.5 0 0 0 7.5 15zM14 7.5A6.5 6.5 0 0 1 7.5 14v1A7.5 7.5 0 0 0 15 7.5zM7.5 1A6.5 6.5 0 0 1 14 7.5h1A7.5 7.5 0 0 0 7.5 0zm0-1A7.5 7.5 0 0 0 0 7.5h1A6.5 6.5 0 0 1 7.5 1zM5 12V4.5H4V12zm-.905-7.207l6.5 9l.81-.586l-6.5-9zM10 4v6h1V4z"
-              ></path>
+              <path d="m4.5 4.5l.405-.293A.5.5 0 0 0 4 4.5zm3 9.5A6.5 6.5 0 0 1 1 7.5H0A7.5 7.5 0 0 0 7.5 15zM14 7.5A6.5 6.5 0 0 1 7.5 14v1A7.5 7.5 0 0 0 15 7.5zM7.5 1A6.5 6.5 0 0 1 14 7.5h1A7.5 7.5 0 0 0 7.5 0zm0-1A7.5 7.5 0 0 0 0 7.5h1A6.5 6.5 0 0 1 7.5 1zM5 12V4.5H4V12zm-.905-7.207l6.5 9l.81-.586l-6.5-9zM10 4v6h1V4z"></path>
             </svg>
           </div>
           <p className="text-neutral-400 text-[17px]">
@@ -48,10 +46,10 @@ export default function FeaturesSection() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-arrow-up-right size-4"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-arrow-up-right size-4"
             >
               <path d="M7 7h10v10"></path>
               <path d="M7 17 17 7"></path>
@@ -59,9 +57,10 @@ export default function FeaturesSection() {
           </button>
         </div>
 
+        {/* Card 2: Google */}
         <div className="relative group overflow-hidden border border-neutral-800 flex flex-col gap-6 h-fit p-6 rounded-2xl">
-          <div className="absolute inset-0 -z-10 h-50 w-full  bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>{" "}
-          <div className="p-2 rounded-2xl  border border-neutral-800 w-fit">
+          <div className="absolute inset-0 -z-10 h-52 w-full bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>
+          <div className="p-2 rounded-2xl border border-neutral-800 w-fit">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -89,10 +88,10 @@ export default function FeaturesSection() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-arrow-up-right size-4"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-arrow-up-right size-4"
             >
               <path d="M7 7h10v10"></path>
               <path d="M7 17 17 7"></path>
@@ -100,9 +99,10 @@ export default function FeaturesSection() {
           </button>
         </div>
 
+        {/* Card 3: Github */}
         <div className="relative group overflow-hidden border border-neutral-800 flex flex-col gap-6 h-fit p-6 rounded-2xl">
-          <div className="absolute inset-0 -z-10 h-50 w-full  bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>{" "}
-          <div className="p-2 rounded-2xl  border border-neutral-800 w-fit">
+          <div className="absolute inset-0 -z-10 h-52 w-full bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>
+          <div className="p-2 rounded-2xl border border-neutral-800 w-fit">
             <svg
               className="w-8"
               aria-hidden="true"
@@ -133,10 +133,10 @@ export default function FeaturesSection() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-arrow-up-right size-4"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-arrow-up-right size-4"
             >
               <path d="M7 7h10v10"></path>
               <path d="M7 17 17 7"></path>
@@ -144,21 +144,21 @@ export default function FeaturesSection() {
           </button>
         </div>
 
+        {/* Card 4: Laptop */}
         <div className="relative group overflow-hidden border border-neutral-800 flex flex-col gap-6 h-fit p-6 rounded-2xl">
-          <div className="absolute inset-0 -z-10 h-50 w-full  bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>
-          <div className="p-2 rounded-2xl  border border-neutral-800 w-fit">
+          <div className="absolute inset-0 -z-10 h-52 w-full bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>
+          <div className="p-2 rounded-2xl border border-neutral-800 w-fit">
             <svg
-              className="w-8"
+              className="w-8 lucide lucide-laptop"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-laptop"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"></path>
             </svg>
@@ -177,10 +177,10 @@ export default function FeaturesSection() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-arrow-up-right size-4"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-arrow-up-right size-4"
             >
               <path d="M7 7h10v10"></path>
               <path d="M7 17 17 7"></path>
@@ -188,21 +188,21 @@ export default function FeaturesSection() {
           </button>
         </div>
 
+        {/* Card 5: User */}
         <div className="relative group overflow-hidden border border-neutral-800 flex flex-col gap-6 h-fit p-6 rounded-2xl">
-          <div className="absolute inset-0 -z-10 h-50 w-full  bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>
-          <div className="p-2 rounded-2xl  border border-neutral-800 w-fit">
+          <div className="absolute inset-0 -z-10 h-52 w-full bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>
+          <div className="p-2 rounded-2xl border border-neutral-800 w-fit">
             <svg
-              className="w-8"
+              className="w-8 lucide lucide-user"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-user"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
@@ -222,10 +222,10 @@ export default function FeaturesSection() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-arrow-up-right size-4"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-arrow-up-right size-4"
             >
               <path d="M7 7h10v10"></path>
               <path d="M7 17 17 7"></path>
@@ -233,9 +233,9 @@ export default function FeaturesSection() {
           </button>
         </div>
 
+        {/* Card 6: Copy */}
         <div className="relative group overflow-hidden border border-neutral-800 hover:bg-neutral-900 flex flex-col gap-6 h-fit p-6 rounded-2xl">
-          <div className="absolute inset-0 -z-10 h-50 w-full  bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>
-
+          <div className="absolute inset-0 -z-10 h-52 w-full bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.1),rgba(255,255,255,0))] group-hover:bg-[radial-gradient(circle_farthest-side_at_50%_0%,rgba(255,255,255,0.12),rgba(255,255,255,0))] group-hover:h-full transition-all duration-500"></div>
           <div className="p-2 rounded-2xl border border-neutral-800 w-fit">
             <svg
               className="w-8"

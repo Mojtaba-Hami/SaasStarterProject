@@ -27,6 +27,5 @@ export  function createArticleAPI() {
   };
 }
 
-const myFakeArticle = createArticleAPI();
-
-console.log(myFakeArticle);
+// const myFakeArticle = createArticleAPI();
+// console.log(myFakeArticle);

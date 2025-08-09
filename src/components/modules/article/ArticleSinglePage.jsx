@@ -1,7 +1,7 @@
 "use client";
 // import { useParams } from 'next/navigation';
 import React from "react";
-import CreateArticleAPI from "../../app/actions/article";
+// import CreateArticleAPI from "../../app/actions/article";
 import Link from "next/link";
 import Image from "next/image";
 

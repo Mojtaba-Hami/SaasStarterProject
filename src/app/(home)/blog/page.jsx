@@ -1,15 +1,11 @@
-import { createArticleAPI } from "@/app/actions/article";
 import Link from "next/link";
 import React from "react";
-import { faker } from "@faker-js/faker";
 import Image from "next/image";
 import BlogPageHeader from "@/components/modules/blog/BlogPageHeader";
+import { alldata } from "@/app/actions/blog";
 
 export default function BlogPage() {
-  const articles = faker.helpers.multiple(createArticleAPI, {
-    count: 4,
-  });
-  console.log("articles :", articles);
+  const articles = alldata()
 
   return (
     <div className='text-white  flex flex-col gap-2 mt-15 '>
@@ -41,9 +37,10 @@ export default function BlogPage() {
               <p className='fontlight line-clamp-2'>{article.description}</p>
               <div className='flex gap-2 items-center'>
                 <Image
+
                   className='rounded-full'
                   src={article.authorImage}
-                  alt={article.authorName}
+                  alt={article.title}
                   width={35}
                   height={35}
                 />
