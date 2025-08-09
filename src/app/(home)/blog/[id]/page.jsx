@@ -10,7 +10,7 @@ export default async function Pagearticle({ params }) {
   const article = createArticleAPI(id);
 
   return (
-    <div>
+    <div className="mt-15">
       <ArticleSinglePage data={article} />
       <InPageNavigation data={article} />
     </div>

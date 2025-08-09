@@ -4,51 +4,77 @@ import Container from "./Container";
 export default function Footer() {
   return (
     <div className="">
-    <div className="mt-20 py-20 border-y border-neutral-800 text-white ">
+      <div className="mt-20 py-20 border-y border-neutral-800 text-white ">
+        <Container>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-11 gap-8 lg:gap-0 w-[95%] mx-auto lg:w-full">
+            <div className="flex flex-col gap-4 lg:col-span-2">
+              <h1 className="font-semibold">Company</h1>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Enterprise
+              </li>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                About
+              </li>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Terms
+              </li>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Privacy
+              </li>
+            </div>
+
+            <div className="flex flex-col gap-4 lg:col-span-2">
+              <h1 className="font-semibold">Product</h1>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Customization
+              </li>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Security
+              </li>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Customers
+              </li>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Changelog
+              </li>
+            </div>
+            <div className="flex flex-col gap-4 lg:col-span-2">
+              <h1 className="font-semibold">Docs</h1>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Introduction
+              </li>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Installation
+              </li>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Components
+              </li>
+              <li className="list-none fontlight font-normal hover:!text-white">
+                Code Blocks
+              </li>
+            </div>
+
+            <div className="flex flex-col gap-4 lg:col-span-5">
+              <label className="font-semibold" htmlFor="">
+                Subscribe to our newsletter
+              </label>
+              <input
+                className="border px-4 py-2 rounded-full w-[400px]  border-neutral-800 "
+                type="text"
+                placeholder="janedoe@example.com"
+              />
+              <button className="py-1.5 px-5 rounded-full bg-white text-black w-fit">
+                Subscibe
+              </button>
+            </div>
+          </div>
+        </Container>
+      </div>
       <Container>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-11 gap-8 lg:gap-0 w-[95%] mx-auto lg:w-full">
-          <div className="flex flex-col gap-4 lg:col-span-2">
-            <h1 className="font-semibold">Company</h1>
-            <li className="list-none fontlight font-normal hover:!text-white">Enterprise</li>
-            <li className="list-none fontlight font-normal hover:!text-white">About</li>
-            <li className="list-none fontlight font-normal hover:!text-white">Terms</li>
-            <li className="list-none fontlight font-normal hover:!text-white">Privacy</li>
-          </div>
-
-          <div className="flex flex-col gap-4 lg:col-span-2">
-            <h1 className="font-semibold">Product</h1>
-            <li className="list-none fontlight font-normal hover:!text-white">Customization</li>
-            <li className="list-none fontlight font-normal hover:!text-white">Security</li>
-            <li className="list-none fontlight font-normal hover:!text-white">Customers</li>
-            <li className="list-none fontlight font-normal hover:!text-white">Changelog</li>
-          </div>
-          <div className="flex flex-col gap-4 lg:col-span-2">
-            <h1 className="font-semibold">Docs</h1>
-            <li className="list-none fontlight font-normal hover:!text-white">Introduction</li>
-            <li className="list-none fontlight font-normal hover:!text-white">Installation</li>
-            <li className="list-none fontlight font-normal hover:!text-white">Components</li>
-            <li className="list-none fontlight font-normal hover:!text-white">Code Blocks</li>
-          </div>
-
-          <div className="flex flex-col gap-4 lg:col-span-5">
-            <label className="font-semibold" htmlFor="">Subscribe to our newsletter</label>
-            <input
-              className="border px-4 py-2 rounded-full w-[400px]  border-neutral-800 "
-              type="text"
-              placeholder="janedoe@example.com"
-            />
-            <button className="py-1.5 px-5 rounded-full bg-white text-black w-fit">
-              Subscibe
-            </button>
-          </div>
-        </div>
-        
-      </Container>
-      
-    </div>
-    <Container>
         <div className="text-white flex justify-between items-center flex-col sm:flex-row">
-          <p className="fontlight ">Built by mickasmt. Hosted on Vercel. Illustrations by Popsy</p>
+          <p className="fontlight ">
+            Built by mickasmt. Hosted on Vercel. Illustrations by Popsy
+          </p>
           <div>
             <div className=" flex gap-4 items-center justify-end px-7 my-7 ">
               <svg
@@ -59,7 +85,7 @@ export default function Footer() {
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512"
-                class="size-6"
+                className="size-6"
               >
                 <path
                   fill="currentColor"
@@ -74,17 +100,17 @@ export default function Footer() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-moon  rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-moon  rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
               >
                 <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
               </svg>
             </div>
           </div>
         </div>
-    </Container>
+      </Container>
     </div>
   );
 }

@@ -1,17 +1,12 @@
-import { createArticleAPI } from "@/app/actions/article";
 import React from "react";
-import { faker } from "@faker-js/faker";
 import Image from "next/image";
 import Link from "next/link";
 import BlogPageHeader from "@/components/modules/blog/BlogPageHeader";
+import { alldata } from "@/app/actions/blog";
 
 export default function NewsPage() {
-  const articles = faker.helpers.multiple(createArticleAPI, {
-    count: 4,
-  });
-  const FilteredArticles = articles.filter(
-    (article) => article.category === "News"
-  );
+
+  const FilteredArticles = alldata("News")
 
   return (
     <div className='flex flex-col gap-2 mt-15'>
@@ -19,12 +14,11 @@ export default function NewsPage() {
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 '>
         {FilteredArticles.map((article) => {
           return (
-            <div className={`flex flex-col gap-3 `}>
+            <div key={article.id} className={`flex flex-col gap-3 `}>
               <Image
                 className={`w-full h-fit rounded-xl `}
-                key={article.id}
                 src={article.coverImage}
-                alt={article.title}
+                alt={article.title? article.title : article.description}
                 width={200}
                 height={200}
               />
@@ -39,7 +33,7 @@ export default function NewsPage() {
                   <Image
                     className='rounded-full'
                     src={article.authorImage}
-                    alt={article.authorName}
+                    alt={article.author}
                     width={35}
                     height={35}
                   />
