@@ -2,10 +2,10 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import BlogPageHeader from "@/components/modules/blog/BlogPageHeader";
-import { alldata } from "@/app/actions/blog";
+import { getBlogs } from "@/app/actions/blog";
 
 export default function BlogPage() {
-  const articles = alldata()
+  const articles = getBlogs();
 
   return (
     <div className='text-white  flex flex-col gap-2 mt-15 '>
@@ -37,7 +37,6 @@ export default function BlogPage() {
               <p className='fontlight line-clamp-2'>{article.description}</p>
               <div className='flex gap-2 items-center'>
                 <Image
-
                   className='rounded-full'
                   src={article.authorImage}
                   alt={article.title}

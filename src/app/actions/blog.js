@@ -1,7 +1,7 @@
 import { createArticleAPI } from "./article";
 import { faker } from "@faker-js/faker";
 
-export function alldata( category ) {
+export function getBlogs( category ) {
     console.log(category);
     
   const articles = faker.helpers.multiple(createArticleAPI, {

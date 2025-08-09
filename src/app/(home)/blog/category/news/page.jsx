@@ -2,11 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import BlogPageHeader from "@/components/modules/blog/BlogPageHeader";
-import { alldata } from "@/app/actions/blog";
+import { getBlogs } from "@/app/actions/blog";
 
 export default function NewsPage() {
-
-  const FilteredArticles = alldata("News")
+  const FilteredArticles = getBlogs("News");
 
   return (
     <div className='flex flex-col gap-2 mt-15'>
@@ -18,7 +17,7 @@ export default function NewsPage() {
               <Image
                 className={`w-full h-fit rounded-xl `}
                 src={article.coverImage}
-                alt={article.title? article.title : article.description}
+                alt={article.title ? article.title : article.description}
                 width={200}
                 height={200}
               />
