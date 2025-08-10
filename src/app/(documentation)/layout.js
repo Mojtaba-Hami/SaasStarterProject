@@ -1,4 +1,4 @@
-// Why? 👇
+// Why? 👇  اینو چرا اینجوری ایمپورت کردین
 import "../(home)/globals.css";
 import Footer from "@/components/layout/Footer";
 import DocumentationPageNavBar from "@/components/modules/documentation/DocumentationNavBar";
