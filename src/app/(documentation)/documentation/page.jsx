@@ -1,7 +1,7 @@
 import Documentationsidebar from "@/components/modules/documentation/DocumentationSideBar";
 import React from "react";
 
-export default function DocumentationPage() {
+export default function documentationPage() {
   return (
     <div className="text-white px-5">
       <div className="grid grid-cols-10">
@@ -19,7 +19,7 @@ export default function DocumentationPage() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 className="lucide lucide-chevron-right size-4"
@@ -63,7 +63,7 @@ export default function DocumentationPage() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 className="lucide lucide-chevron-right ml-2 size-4"

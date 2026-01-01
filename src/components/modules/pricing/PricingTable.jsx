@@ -1,5 +1,7 @@
 "use client";
 
+import InformationSvg from "@/icons/information.svg";
+import TabletikSvg from "@/icons/tabletik.svg";
 import React, { useState } from "react";
 
 export default function Pricingtable() {
@@ -45,69 +47,18 @@ export default function Pricingtable() {
               {/* Corrected TD */}
               <td className='p-5 border border-neutral-800 py-5 flex w-full items-center sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>Access to Analytics</span>
-                <svg
-                  className='relative stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                <InformationSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  className='lucide lucide-circle-check mx-auto size-[22px]'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='m9 12 2 2 4-4'></path>
-                </svg>
+                
+               <TabletikSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  className='lucide lucide-circle-check mx-auto size-[22px]'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='m9 12 2 2 4-4'></path>
-                </svg>
+               <TabletikSvg/>
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  className='lucide lucide-circle-check mx-auto size-[22px]'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='m9 12 2 2 4-4'></path>
-                </svg>
+               <TabletikSvg/>
+              
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 Custom
@@ -117,21 +68,7 @@ export default function Pricingtable() {
               {/* Corrected TD */}
               <td className='w-full flex items-center p-5 text-center border border-neutral-800 py-5 sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>Custom Branding</span>
-                <svg
-                  className='stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                <InformationSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 —
@@ -150,21 +87,7 @@ export default function Pricingtable() {
               {/* Corrected TD */}
               <td className='w-full flex items-center p-5 text-center border border-neutral-800 py-5 sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>Priority Support</span>
-                <svg
-                  className='stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                <InformationSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 —
@@ -183,21 +106,7 @@ export default function Pricingtable() {
               {/* Corrected TD */}
               <td className='w-full flex items-center p-5 text-center border border-neutral-800 py-5 sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>Advanced Reporting</span>
-                <svg
-                  className='stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                <InformationSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 —
@@ -206,20 +115,7 @@ export default function Pricingtable() {
                 —
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  className='lucide lucide-circle-check mx-auto size-[22px]'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='m9 12 2 2 4-4'></path>
-                </svg>
+                <TabletikSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 Custom
@@ -229,21 +125,7 @@ export default function Pricingtable() {
               {/* Corrected TD */}
               <td className='w-full flex items-center p-5 text-center border border-neutral-800 py-5 sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>Dedicated Manager</span>
-                <svg
-                  className='stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                <InformationSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 —
@@ -255,41 +137,14 @@ export default function Pricingtable() {
                 —
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  className='lucide lucide-circle-check mx-auto size-[22px]'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='m9 12 2 2 4-4'></path>
-                </svg>
+                <TabletikSvg />
               </td>
             </tr>
             <tr className='w-[20%] p-5 text-center border border-neutral-800 py-5'>
               {/* Corrected TD */}
               <td className='w-full flex items-center p-5 text-center border border-neutral-800 py-5 sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>API Access</span>
-                <svg
-                  className='stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                <InformationSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 Limited
@@ -308,56 +163,17 @@ export default function Pricingtable() {
               {/* Corrected TD */}
               <td className='w-full flex items-center p-5 text-center border border-neutral-800 py-5 sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>Monthly Webinars</span>
-                <svg
-                  className='stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                               <InformationSvg />
+
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 —
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  className='lucide lucide-circle-check mx-auto size-[22px]'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='m9 12 2 2 4-4'></path>
-                </svg>
+                <TabletikSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  className='lucide lucide-circle-check mx-auto size-[22px]'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='m9 12 2 2 4-4'></path>
-                </svg>
+                <TabletikSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 Custom
@@ -367,21 +183,7 @@ export default function Pricingtable() {
               {/* Corrected TD */}
               <td className='w-full flex items-center p-5 text-center border border-neutral-800 py-5 sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>Custom Integrations</span>
-                <svg
-                  className='stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                <InformationSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 —
@@ -400,21 +202,7 @@ export default function Pricingtable() {
               {/* Corrected TD */}
               <td className='w-full flex items-center p-5 text-center border border-neutral-800 py-5 sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>Roles and Permissions</span>
-                <svg
-                  className='stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                <InformationSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 —
@@ -433,21 +221,7 @@ export default function Pricingtable() {
               {/* Corrected TD */}
               <td className='w-full flex items-center p-5 text-center border border-neutral-800 py-5 sticky left-0 z-10 lg:bg-transparent bg-neutral-900'>
                 <span className='mr-auto'>Onboarding Assistance</span>
-                <svg
-                  className='stroke-neutral-500 shrink-0'
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  strokeWidth='2'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'>
-                  <circle cx='12' cy='12' r='10'></circle>
-                  <path d='M12 16v-4'></path>
-                  <path d='M12 8h.01'></path>
-                </svg>
+                <InformationSvg />
               </td>
               <td className='w-[20%] p-5 text-center border border-neutral-800 py-5 fontlight'>
                 —

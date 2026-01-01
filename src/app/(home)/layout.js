@@ -1,5 +1,5 @@
 import NavBar from "@/components/layout/NavBar";
-import "./globals.css";
+import "../(home)/globals.css";
 import Container from "@/components/layout/Container";
 import Footer from "@/components/layout/Footer";
 
@@ -9,6 +9,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  console.log(NavBar);
+  
   return (
     <html lang='en'>
       <body className=''>

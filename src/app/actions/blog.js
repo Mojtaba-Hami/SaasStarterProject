@@ -1,4 +1,4 @@
-import { createArticleAPI } from "./article";
+import { createArticleAPI } from "@/app/actions/article";
 import { faker } from "@faker-js/faker";
 
 export function getBlogs( category ) {

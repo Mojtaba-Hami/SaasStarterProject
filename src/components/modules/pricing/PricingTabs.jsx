@@ -1,4 +1,6 @@
 "use client";
+import TikSvg from "@/icons/tik.svg";
+import ZarbdarSvg from "@/icons/zarbdar.svg";
 import React, { useState } from "react";
 
 export default function PricingTab() {
@@ -37,129 +39,34 @@ export default function PricingTab() {
           </div>
           <div className="mt-5 mx-5 flex flex-col gap-3">
             <p className="font-semibold flex gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Up to 100 monthly posts
             </p>
             <p className="font-semibold flex gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Basic analytics and reporting
             </p>
             <p className="font-semibold flex gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Access to standard templates
             </p>
             <p className="font-semibold flex  gap-2 fontlight">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-x  size-5 shrink-0"
-              >
-                <path d="M18 6 6 18"></path>
-                <path d="m6 6 12 12"></path>
-              </svg>
+              <ZarbdarSvg />
               NO Priority customer support
             </p>
 
             <p className="font-semibold flex  gap-2 fontlight">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-x  size-5 shrink-0"
-              >
-                <path d="M18 6 6 18"></path>
-                <path d="m6 6 12 12"></path>
-              </svg>
+              <ZarbdarSvg />
               Limited customer support
             </p>
 
             <p className="font-semibold flex fontlight gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-x  size-5 shrink-0"
-              >
-                <path d="M18 6 6 18"></path>
-                <path d="m6 6 12 12"></path>
-              </svg>
+              <ZarbdarSvg />
               No custom branding
             </p>
 
             <p className="font-semibold flex fontlight gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-x  size-5 shrink-0"
-              >
-                <path d="M18 6 6 18"></path>
-                <path d="m6 6 12 12"></path>
-              </svg>
+              <ZarbdarSvg />
               Limited access to business resources.
             </p>
           </div>
@@ -195,127 +102,34 @@ export default function PricingTab() {
           </div>
           <div className="mt-5 mx-5 flex flex-col gap-3">
             <p className="font-semibold flex gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Up to 500 monthly posts
             </p>
             <p className="font-semibold flex gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Advanced analytics and reporting
             </p>
             <p className="font-semibold flex gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Access to business templates
             </p>
             <p className="font-semibold flex  gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Priority customer support
             </p>
 
             <p className="font-semibold flex  gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Exclusive webinars and training.
             </p>
 
             <p className="font-semibold flex fontlight gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-x  size-5 shrink-0"
-              >
-                <path d="M18 6 6 18"></path>
-                <path d="m6 6 12 12"></path>
-              </svg>
+              <ZarbdarSvg />
               No custom branding
             </p>
 
             <p className="font-semibold flex fontlight gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-x  size-5 shrink-0"
-              >
-                <path d="M18 6 6 18"></path>
-                <path d="m6 6 12 12"></path>
-              </svg>
+              <ZarbdarSvg />
               Limited access to business resources.
             </p>
           </div>
@@ -350,89 +164,24 @@ export default function PricingTab() {
           </div>
           <div className="mt-5 mx-5 flex flex-col gap-3">
             <p className="font-semibold flex gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Unlimited posts
             </p>
             <p className="font-semibold flex gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Real-time analytics and reporting
             </p>
             <p className="font-semibold flex gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Access to all templates, including custom branding
             </p>
             <p className="font-semibold flex  gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               24/7 business customer support
             </p>
 
             <p className="font-semibold flex  gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-check size-5 shrink-0 text-purple-500"
-              >
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <TikSvg />
               Personalized onboarding and account management.
             </p>
           </div>

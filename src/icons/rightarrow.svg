@@ -1,4 +1,5 @@
-export const SomeIcon = `<svg
+
+    <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -8,8 +9,9 @@ export const SomeIcon = `<svg
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="lucide lucide-arrow-up-right size-4"
+              className="lucide lucide-arrow-right size-4"
             >
-              <path d="M7 7h10v10"></path>
-              <path d="M7 17 17 7"></path>
-            </svg>`;
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+  

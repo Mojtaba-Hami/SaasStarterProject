@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import BlogPageDrawer from './BlogPageDrawer'
+import BlogPageDrawer from '@/components/modules/blog/BlogPageDrawer'
 
 
 export default function BlogPageHeader({param}) {
